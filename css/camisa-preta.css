@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo {
+    width: 220px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    padding: 20px;
+}
+
+.produtoimg {
+    width: 448px;
+    height: 490px;
+    border: solid red 2px;
+}
+
+.produtoimg img {
+    border: solid black 2px;
+    width: 100%;
+}
+
+.desc {
+    border-radius: 16px;
+    background-color: darkgray;
+    width: 340px;
+    height: 340.6px;
+    padding: 10px;
+}
+
+.desc p {
+    font-size: 20px;
+}
+
+input {
+    background-color: black;
+}
+
+input[type="submit"] {
+    content: "Prosseguir";
+    color: #fafafa;
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    transition: 0.3s;
+    border-radius: 16px;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    color: black;
+    background-color: #fafafa
+}
